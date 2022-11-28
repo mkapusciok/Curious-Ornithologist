@@ -230,6 +230,11 @@
     background-image: url('https://static-assets.codecademy.com/Courses/Learn-CSS/Projects/bird4.jpg');
   }
   
+  .block-1:hover {
+    filter: blur(1.2px);
+    transition: filter 0.5s ease-in;
+    cursor: pointer;
+  }
   
   .block-2 {
     background-image: url('https://static-assets.codecademy.com/Courses/Learn-CSS/Projects/bird5.jpg');
