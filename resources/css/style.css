@@ -35,7 +35,9 @@
   .dark {
     --bg: var(--dark-mode-background);
     --bg-dropdown: var(--dark-dropdown-background);
-    --text: var(--text-color-dark-mode)
+    --text: var(--text-color-dark-mode);
+    --border-color: var(--accent-color);
+    --bg-custom: var(--drop-down-custom);
   }
 
   /* Custom theme code goes below */
