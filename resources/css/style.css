@@ -49,6 +49,10 @@
   /* Custom theme code goes below */
   .custom-theme {
     --bg: var(--custom-main-bg);
+    --text: var(--custom-font);
+    --border-color: var(--custom-accent);
+    --bg-dropdown: var(--custom-drop);
+    --bg-custom: var(--custom-main-bg);
   }
    
   #dark::before {
