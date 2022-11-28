@@ -53,6 +53,7 @@
     --border-color: var(--custom-accent);
     --bg-dropdown: var(--custom-drop);
     --bg-custom: var(--custom-main-bg);
+    --bg-nav: linear-gradient(to right, var(--custom-main-bg), var(--custom-secondary-bg));
   }
    
   #dark::before {
