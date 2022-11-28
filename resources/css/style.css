@@ -111,7 +111,6 @@
     margin-bottom: 1em;
     padding-bottom: 2.5em;
     text-align: center;  
-    clip-path: polygon(var(--clip1) 0%, var(--clip2) 0%, var(--clip3) var(--clip3), 0% var(--clip3));
   }
   
   main {
@@ -210,10 +209,17 @@
   
   .header {
     background-image: var(--bird);
+    clip-path: polygon(var(--clip1) 0%, var(--clip2) 0%, var(--clip3) var(--clip3), 0% var(--clip3));
   }
   
   .subhead-1 {
     background-image: url('https://static-assets.codecademy.com/Courses/Learn-CSS/Projects/bird2.jpg');
+  }
+
+  .subhead-1:hover {
+    filter: hue-rotate(3.142rad);
+    transition: filter 0.5s ease-in;
+    cursor: pointer;
   }
   
   .subhead-2 {
