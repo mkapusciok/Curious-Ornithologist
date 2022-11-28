@@ -48,6 +48,7 @@
     --border-color: var(--accent-color);
     --bg-custom: var(--drop-down-custom);
     --bg-nav: linear-gradient(to bottom, var(--link-color), var(--secondary-black));
+    --bird: var(--night-bird);
   }
 
   /* Custom theme code goes below */
