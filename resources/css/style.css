@@ -111,6 +111,7 @@
     margin-bottom: 1em;
     padding-bottom: 2.5em;
     text-align: center;  
+    clip-path: polygon(var(--clip1) 0%, var(--clip2) 0%, var(--clip3) var(--clip3), 0% var(--clip3));
   }
   
   main {
