@@ -201,7 +201,7 @@
   }
   
   .header {
-    background-image: url('https://static-assets.codecademy.com/Courses/Learn-CSS/Projects/bird1.jpg');
+    background-image: var(--bird);
   }
   
   .subhead-1 {
