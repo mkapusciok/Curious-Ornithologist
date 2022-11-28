@@ -33,7 +33,9 @@
   
   /* Dark theme code goes below */
   .dark {
-    --bg: var(--dark-dropdown-background);
+    --bg: var(--dark-mode-background);
+    --bg-dropdown: var(--dark-dropdown-background);
+    --text: var(--text-color-dark-mode)
   }
 
   /* Custom theme code goes below */
