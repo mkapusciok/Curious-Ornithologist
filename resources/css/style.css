@@ -208,12 +208,12 @@
   }
   
   .header {
-    background-image: var(--bird);
+    background-image: url('https://static-assets.codecademy.com/Courses/Learn-CSS/Projects/bird9.jpg');
     clip-path: polygon(var(--clip1) 0%, var(--clip2) 0%, var(--clip3) var(--clip3), 0% var(--clip3));
   }
   
   .subhead-1 {
-    background-image: url('https://static-assets.codecademy.com/Courses/Learn-CSS/Projects/bird2.jpg');
+    background-image: var(--bird);
   }
 
   .subhead-1:hover {
