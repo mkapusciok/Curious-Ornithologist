@@ -47,6 +47,9 @@
   }
 
   /* Custom theme code goes below */
+  .custom-theme {
+    --bg: var(--custom-main-bg);
+  }
    
   #dark::before {
     background: #2a2e35;
