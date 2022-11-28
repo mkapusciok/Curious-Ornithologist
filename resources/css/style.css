@@ -64,6 +64,9 @@
     --bg-custom: var(--custom-main-bg);
     --bg-nav: linear-gradient(to right, var(--custom-main-bg), var(--custom-secondary-bg));
     --bird: var(--main-bird);
+    --clip-1: var(--path-value-1);
+    --clip-2: var(--path-value-2);
+    --clip-3: var(--path-value-3);
   }
    
   #dark::before {
