@@ -20,6 +20,11 @@
     --dark-mode-background: hsl(var(--hue), 20%, 12%);
   
     /* Custom theme variables go below */
+    --custom-main-bg: #ADD2EB;
+    --custom-font: #181E34;
+    --custom-secondary-bg: #0F2417;
+    --custom-accent: #A24F0B;
+    --custom-drop: #67929e;
   }
   
   .light {
