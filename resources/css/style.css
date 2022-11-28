@@ -25,6 +25,9 @@
     --custom-secondary-bg: #0F2417;
     --custom-accent: #A24F0B;
     --custom-drop: #67929e;
+
+    --main-bird: url('../images/hummingbird.jpg');
+    --night-bird: url('../images/owl.jpg');
   }
   
   .light {
